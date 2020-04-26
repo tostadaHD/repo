@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr"><head><title data-l10n-id="timeslider.pageTitle" data-l10n-args="{ &quot;appTitle&quot;: &quot;Etherpad&quot; }" aria-label="Etherpad Timeslider">Etherpad Timeslider</title>
+<script>
+  /*
+  |@licstart  The following is the entire license notice for the
+  JavaScript code in this page.|
+
+  Copyright 2011 Peter Martischka, Primary Technology.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  |@licend  The above is the entire license notice
+  for the JavaScript code in this page.|
+  */
+</script>
+
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <link rel="shortcut icon" href="../../favicon.ico">
+  
+  <link rel="stylesheet" href="../../static/css/pad.css">
+  <link rel="stylesheet" href="../../static/css/timeslider.css">
+  <link rel="stylesheet" href="../../static/skins/no-skin/pad.css">
+  <link rel="stylesheet" href="../../static/skins/no-skin/timeslider.css">
+  <style type="text/css" title="dynamicsyntax"></style>
+  
+
+  <link rel="localizations" type="application/l10n+json" href="../../locales.json">
+  
+  <script type="text/javascript" src="../../static/js/html10n.js"></script>
+  <script type="text/javascript" src="../../static/js/l10n.js"></script>
+  
+</head>
+
+
+<body id="padbody" class="timeslider limwidth" data-gr-c-s-loaded="true">
+  <div id="padpage">
+    <div id="timeslider-top">
+      
+      <div id="timeslider-wrapper">
+        <div id="timeslider" unselectable="on" style="cursor: default;">
+          <div id="timeslider-left"></div>
+          <div id="timeslider-right"></div>
+          <div id="timer">26/03/2020 17:30:55</div>
+          <div id="timeslider-slider">
+            <div id="ui-slider-handle" style="left: 411.177px;"></div>
+            <div id="ui-slider-bar"></div>
+          <div class="star" pos="2" style="position: absolute; left: -0.79725px;"></div></div>
+          <div id="playpause_button" style="cursor: default;">
+            <button id="playpause_button_icon" class="" title="Playback/Pause Pad Contents"></button>
+          </div>
+          <div id="steppers">
+            <button class="stepper" id="leftstep" title="Go back a revision in this Pad" style="opacity: 1; background-position: 0% 0%;"></button>
+            <button class="stepper" id="rightstep" title="Go forward a revision in this Pad" style="opacity: 1; background-position: 0% 0%;"></button>
+          </div>
+        </div>
+
+        <div id="overlay">
+          <div id="overlay-inner">
+            <!-- -->
+          </div>
+        </div>
+      </div>
+
+      <div class="timeslider-bar">
+          <div class="editbarright toolbar enabledtoolbar" id="editbar" style="display: block; height: 1px;">
+            
+            <ul>
+              <li data-type="button" data-key="import_export"><a class="grouped-left" data-l10n-id="timeslider.toolbar.exportlink.title" title="Export" aria-label="Export"><button class=" buttonicon buttonicon-import_export" data-l10n-id="timeslider.toolbar.exportlink.title" title="Export" aria-label="Export"></button></a></li>
+<li data-type="button" data-key="timeslider_returnToPad"><a class="grouped-right" data-l10n-id="timeslider.toolbar.returnbutton"><button class=" buttontext" data-l10n-id="timeslider.toolbar.returnbutton" aria-label="Return to pad">Return to pad</button></a></li>
+            </ul>
+            
+          </div>
+
+          <div>
+              <h1>
+                <span id="revision_label">Version 4056</span>
+                <span id="revision_date">Saved March 26, 2020</span>
+              </h1>
+              <p>
+                <span data-l10n-id="timeslider.toolbar.authors" aria-label="Authors:">Authors:</span>
+                <span id="authorsList" data-l10n-id="timeslider.toolbar.authorsList" aria-label="No Authors"><span class="author" style="background-color: rgb(179, 179, 230);">Napoleón</span>, <span class="author" style="background-color: rgb(195, 205, 238);">Ernesto</span>, <span class="author" style="background-color: rgb(248, 248, 169);">maria josé</span>, <span class="author" style="background-color: rgb(214, 123, 123);">Jose Nicolas</span>, <span class="author" style="background-color: rgb(173, 198, 235);">Omar</span>, <span class="author" style="background-color: rgb(193, 201, 226);">jairo</span>, <span class="author" style="background-color: rgb(255, 241, 199);">Tata</span> + 3 unnamed authors (<span class="author author-anonymous" style="background-color: rgb(240, 240, 168);">&nbsp;</span> <span class="author author-anonymous" style="background-color: rgb(177, 231, 224);">&nbsp;</span> <span class="author author-anonymous" style="background-color: rgb(255, 168, 168);">&nbsp;</span>)</span>
+               </p>
+          </div>
+      </div>
+    
+    </div>
+
+    <div id="padmain">
+      <div id="padeditor">
+        <div id="editorcontainerbox" style="margin-top: 115px;">
+          <div id="padcontent"><div class="ace-line" id="0.6259369516231301"><ul class="list-indent1"><li>&nbsp;</li></ul></div><div class="ace-line" id="0.983326670074496">&nbsp;</div><div class="ace-line" id="0.9413672747814859"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z b"><b>Bienvenidos a la #TostadaHD</b></span></div><div class="ace-line" id="0.8184736376993">&nbsp;</div><div class="ace-line" id="0.0799724110457729"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Algunos comentarios</span></div><div class="ace-line" id="0.13783939313811344">&nbsp;</div><div class="ace-line list-start-number1" id="0.9185945110825848"><ol start="1" class="list-number1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">No hay expertos, hay experiencias.&nbsp;</span></li></ol></div><div class="ace-line" id="0.5967138189046992"><ol start="2" class="list-number1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Compartir detalles es lo que puede hacer la diferencia</span></li></ol></div><div class="ace-line" id="0.5205626444231946"><ol start="3" class="list-number1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Lo técnico y lo humano&nbsp;</span></li></ol></div><div class="ace-line" id="0.7488712827755741">&nbsp;</div><div class="ace-line" id="0.29108815660820464"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Para que todo nos funcione:</span></div><div class="ace-line" id="0.4699288073461232">&nbsp;</div><div class="ace-line list-start-number1" id="0.9373189049033017"><ol start="1" class="list-number1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Apaga tu cámara y mic</span></li></ol></div><div class="ace-line" id="0.335799903754042"><ol start="2" class="list-number1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Cierra todo lo que tengas abierto, correo, whatsapp y redes sociales.</span></li></ol></div><div class="ace-line" id="0.1898877074108627"><ol start="3" class="list-number1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Solo deja el dispositivo que estás utilizando para la reunión virtual conectado.</span></li></ol></div><div class="ace-line" id="0.646840781435299"><ol start="4" class="list-number1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Estaremos conectados 1:30 min</span></li></ol></div><div class="ace-line" id="0.9712502274936758">&nbsp;</div><div class="ace-line" id="0.43915095056693776"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">De dónde viene la TostadaHD?</span></div><div class="ace-line" id="0.21202048591173295"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Tom Wujec crear el nombre y la metodología y La Red Colombiana de humanidades Digitales la apropió y la reconfiguró un poco el año pasado.</span></div><div class="ace-line" id="0.21562867662868856"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Estos talleres de DrawToast son una excelente manera de hacer que los grupos piensen de manera fresca sobre los modelos mentales y procesos.</span></div><div class="ace-line" id="0.20064356278619244">&nbsp;</div><div class="ace-line" id="0.14037134102809246"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z b"><b>Definición de la #TostadaHD&nbsp;</b></span></div><div class="ace-line" id="0.6403370738829117">&nbsp;</div><div class="ace-line" id="0.9138793246565897"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">La Red Colombiana de Humanidades digitales: La #TostadaHD es un espacio de debate virtual en el que nos reunimos diferentes personas de habla hispana que trabajan en #HumanidadesDigitales&nbsp;</span></div><div class="ace-line" id="0.5443069642811409">&nbsp;</div><div class="ace-line" id="0.06895762077198775"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z b"><b>#TostadaHD - Educación virtual: Qué retos trae la educación virtual.</b></span></div><div class="ace-line" id="0.16183348913387952">&nbsp;</div><div class="ace-line" id="0.39622382709819215"><ul class="list-bullet1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Como profesores</span></li></ul></div><div class="ace-line" id="0.905117234082145"><ul class="list-bullet1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Como alumnos</span></li></ul></div><div class="ace-line" id="0.02798396625914057"><ul class="list-bullet1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Cómo es el acompañamiento</span><span class="author-a-z82zynez80zz75zz70zz78zgiz86z0z86zw2a">&nbsp;</span></li></ul></div><div class="ace-line" id="0.27156098424395725"><ul class="list-bullet1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Herramientas -&nbsp; Hay que reconfigurarnos completamente y preguntarnos qué queremos, participación?&nbsp;&nbsp;</span></li></ul></div><div class="ace-line" id="0.2335572808055555">&nbsp;</div><div class="ace-line" id="0.8577462014983712"><ul class="list-bullet2"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Podcast</span></li></ul></div><div class="ace-line" id="0.2105629247237888"><ul class="list-bullet2"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Plataformas de reunión - zoom, skype, jitsi</span></li></ul></div><div class="ace-line" id="0.27261587033060053"><ul class="list-bullet2"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Couch virtuales -&nbsp; grupos de apoyo en whatsapp? lecturas o audios?</span></li></ul></div><div class="ace-line" id="0.26714124731042377"><ul class="list-bullet2"><li><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">Goog</span><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">l</span><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">eClass</span><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">room</span><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">, Moodle,&nbsp;</span></li></ul></div><div class="ace-line" id="0.3566663688525671"><ul class="list-bullet2"><li><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">Github: Sitios de profesor, repositorios de lecturas y ejercicios.&nbsp;</span><span class="author-a-z82zynez80zz75zz70zz78zgiz86z0z86zw2a">&nbsp;</span></li></ul></div><div class="ace-line" id="0.21287168996774875"><ul class="list-bullet2"><li><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">Cloud Services (Dropbox, Google Drive, Box...): Compartir archivos, materiales de clase, ejercicios.</span></li></ul></div><div class="ace-line" id="0.027639796091411206"><ul class="list-bullet2"><li><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">Discord (voz y audio).</span></li></ul></div><div class="ace-line" id="0.684301211622149"><ul class="list-bullet2"><li><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">Witheboard (dibujar).</span></li></ul></div><div class="ace-line" id="0.966363712852309">&nbsp;</div><div class="ace-line" id="0.29131568356802773"><ul class="list-bullet1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Qué canales funcionan mejor</span></li></ul></div><div class="ace-line" id="0.6605470257863411"><ul class="list-bullet1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Cuál es el papel de las HumanidadesDigitales. Cuál será la posición? cómo lo asumimos desde la inviestigación pero también desde lo que significa lo humano.</span></li></ul></div><div class="ace-line" id="0.8471252064753003"><ul class="list-bullet1"><li><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Qué herramientas tendrán las redes y cómo realmente funciona una red en este momento.</span></li></ul></div><div class="ace-line" id="0.0301476076480649"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">&nbsp;</span></div><div class="ace-line" id="0.3872317952537023">&nbsp;</div><div class="ace-line" id="0.6158063380045617"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Emp</span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">ezemos</span></div><div class="ace-line" id="0.058404676832651825">&nbsp;</div><div class="ace-line" id="0.6249126615080849"><span class="author-a-z67zz88zz67zz82zz68zaz71zgi9z83zk82ok">Prueba</span></div><div class="ace-line" id="0.11346156454374112">&nbsp;</div><div class="ace-line" id="0.6289655204551241"><span class="author-a-z67zz88zz67zz82zz68zaz71zgi9z83zk82ok">Una clave es conversar y conectarnos. Cuál es la calidad de nuestra conexión y no exactamente desde lo tecnológico sino en lo humano.&nbsp;</span></div><div class="ace-line" id="0.7856987001498694">&nbsp;</div><div class="ace-line" id="0.18749812612027483"><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">La emergencia de las clases en línea sin infraestructura, ni experiencia por la pandemia</span></div><div class="ace-line" id="0.8062926720398127">&nbsp;</div><div class="ace-line" id="0.6774231553958481"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">¿clase virtual? Hacemos es clases clones de lo presencial. </span><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">La educación virtual es "hija de" la educación a distancia.</span></div><div class="ace-line" id="0.8110756485843795"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">Lo vi</span><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">r</span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">tual </span><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">debe priorizar</span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4"> </span><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">la </span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">asincr</span><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">o</span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">n</span><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">í</span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">a.</span></div><div class="ace-line" id="0.8915364178587282"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">Esto es una creación nueva.</span></div><div class="ace-line" id="0.745340297623603"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">Y se insiste en la interacción</span><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z"> entre los participantes a través de</span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4"> foros, chats</span><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z">, blogs, wikis</span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">... MIS ESTUDIANTES NO QUIEREN INTERACTUAR... ellos no quieren nada con nosotros.</span></div><div class="ace-line" id="0.836214488792723"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">Creo que hay sobreplanificación: demasiadas cosas al tiempo.</span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4 b"><b> No es mejor SIMPLE es MAS. Menos es MEJOR. Viva la improvisación y la pedagogía de ensayo del profesor autor.</b></span></div><div class="ace-line" id="0.2868906416354531"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">Creo que hay exceso de los didactólogos y pedagogos que quieren imponer formatos que atentan contra el concepto de lo de digital: fluir y guiarse por el proyecto.</span><span class="author-a-buz65zz80zw2z89z8z76zz83zmf3z84zz75zz73z"> (En este punto sería interesante revisar las ideas del e-learning 2.0, específicamente los trabajos de Stephen Downes y George Siemens; y su idea del 'conectivismo'.)</span></div><div class="ace-line" id="0.26085291693109447"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">Y falta interdisciplinaridad: del no saber a llegar conocer.</span></div><div class="ace-line" id="0.7796048876530339"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">Y recordar que a los jóvenes SI LES GUSTA IR A LA UNIVERSIDAD por sus compañeros y los rituales de socialización Y JUEGO... no por las clases....&nbsp;</span></div><div class="ace-line" id="0.22819170319765014">&nbsp;</div><div class="ace-line" id="0.41591842078052266">&nbsp;</div><div class="ace-line" id="0.33418584131590223"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Revisar metodologías de participación - Pensamos que lo digital acercaría.</span></div><div class="ace-line" id="0.7522518632014878"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Reinventarse&nbsp;</span></div><div class="ace-line" id="0.8980091144276348"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Incomprensión de diseños virtuales&nbsp;</span></div><div class="ace-line" id="0.6418828373462204"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Flexibilizar - Participación </span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">(pero no sabemos sino de vieja participación...&nbsp; y queremos OBLIGAR a participar... ¿quieren?)</span></div><div class="ace-line" id="0.9237161491929149"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Diseño pe</span><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">dagógico</span><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z"> por com</span><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">p</span><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">etencias </span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">(en eso venimos ... y somos incompetentes... tal vez no debamos comprar eso... y mas saberes mínimos, habilidades mínimas....)</span></div><div class="ace-line" id="0.4824964048711995"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">aprendizaje autonomo </span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">(y lejano de los profes)</span></div><div class="ace-line" id="0.4646016215194855"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">La diferenica entre universidades virtuales y presenciales.</span><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4"> NO ES UNA O LA OTRA, son las dos y mas fusiones.</span></div><div class="ace-line" id="0.26624110777019583"><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">El debate sobre las brechas digitales: solo hardware, conexiones a Internet, pero las brechas también son de habilidades, competencias en entornos digitales</span></div><div class="ace-line" id="0.8549020178661804">&nbsp;</div><div class="ace-line" id="0.7403189109017936"><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">Un informe recomendado recién salido que se pregunta </span><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z b"><b>porqué la ciudadanía digital es central en las discusiones sobre jóvenes, educación y aprendizaje en el siglo 21</b></span><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">: </span><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z url"><a href="https://cyber.harvard.edu/publication/2020/youth-and-digital-citizenship-plus" rel="noreferrer noopener">https://cyber.harvard.edu/publication/2020/youth-and-digital-citizenship-plus</a></span><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">&nbsp;</span></div><div class="ace-line" id="0.8293482899012576">&nbsp;</div><div class="ace-line" id="0.34444954338014777"><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">Necesidad de CACHARREAR y aprender sobre plataformas digitales diversas (no solo los Education Management Systems) que pueden apoyar procesos pedagógicos y abrir espacios de creatividad. En Open Source hay varias cosas para explorar:&nbsp;</span></div><div class="ace-line" id="0.3022118514062744"><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">&nbsp;&nbsp;&nbsp; - Slack</span></div><div class="ace-line" id="0.42247014927684545"><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">&nbsp;&nbsp;&nbsp; - GitHub</span></div><div class="ace-line" id="0.6228735139856287"><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div class="ace-line" id="0.36682029753175516"><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">¿Qué hacemos cuando tenemos problemas técnicos con las plataformas? Tener plan a,b,c...</span></div><div class="ace-line" id="0.5011868788258622">&nbsp;</div><div class="ace-line" id="0.17453645962111453"><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">Alfabetizaciones necesarias para la conceptualización y desarrollo de cursos virtuales</span></div><div class="ace-line" id="0.6641306909287796">&nbsp;</div><div class="ace-line" id="0.6723683078489895"><span class="author-a-z71zz84zoiz85z06z89z8uz74ze7lz68zz85z">¿Qué piensan los estudiantes?</span></div><div class="ace-line" id="0.1324646658269668">&nbsp;</div><div class="ace-line" id="0.5446835787611588"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">En las universidades virtuales hay participación porque es claro que se debe&nbsp; hacer pero cuando las universidades presenciales pasa a lo virtual, las cosas cambian.&nbsp;</span></div><div class="ace-line" id="0.37535259619125383"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Miguel angel - Qué queremos? Hacerlos sincronico? asincronico?&nbsp;</span></div><div class="ace-line" id="0.09062194653588862"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Creación de habilidades, regreso a las aulas para saber que está pasando, qué se está haciendo, replantear la educación&nbsp;</span></div><div class="ace-line" id="0.6171926153575253"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Presencialidad para 70 personas</span></div><div class="ace-line" id="0.9263415802676487">&nbsp;</div><div class="ace-line" id="0.956786338143784"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">El ejercicio soñado para probar las herramientas, las metodologías,&nbsp;</span></div><div class="ace-line" id="0.697350462576255"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Está pasando todo menos educación virtual,&nbsp;&nbsp;</span></div><div class="ace-line" id="0.9739428457070163"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">La clonación de los procesos&nbsp;</span></div><div class="ace-line" id="0.3188061836639504"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Modelos híbridos&nbsp; - qué no queremos perder de la relación con los humanos y qué queremos quedarnos de la tecnología</span></div><div class="ace-line" id="0.03150315622379529"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Trello - plataforma para interactuar,&nbsp;</span></div><div class="ace-line" id="0.09074620097606467">&nbsp;</div><div class="ace-line" id="0.2610210617894704"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Nico: ¿Qué significa virtualizar en conetextos&nbsp; como latinoamerica cuando no todos tienen acceso a internet?&nbsp;</span></div><div class="ace-line" id="0.8868349450328143"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Miguel: Visión apocaliptica - hasta qué punto e sun campo de prueba.&nbsp;</span></div><div class="ace-line" id="0.861039577853475"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Jairo:&nbsp;</span></div><div class="ace-line" id="0.9262196805615281"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div class="ace-line" id="0.7599930707352927"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">&nbsp;&nbsp;&nbsp; Nico: Antes de irme, lo siento, les dejo este episodio del pódcast Cosas de Internet, donde se reflexiona algo sobre ese aprendizaje por internet. Para los más novatos, sirve para hacerse algunas preguntas:&nbsp;</span></div><div class="ace-line" id="0.10845592074031041"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z url"><a href="https://cosasdeinternet.fm/podcast/22-educacion" rel="noreferrer noopener">https://cosasdeinternet.fm/podcast/22-educacion</a></span></div><div class="ace-line" id="0.11714753726879668"><span class="author-a-ln6pnnz72zq49z76zz79zz85zpz71zz87z">Gamificación</span></div><div class="ace-line" id="0.8969319926763093">&nbsp;</div><div class="ace-line" id="0.6537923064291176"><span class="author-a-z72zz82zjdo2q6l6oz90zmmz70z8 b"><b>Clases virtuales</b></span><span class="author-a-z72zz82zjdo2q6l6oz90zmmz70z8"> =&nbsp; </span><span class="author-a-z72zz82zjdo2q6l6oz90zmmz70z8 b i u"><b><i><u>a&nbsp; s&nbsp; i&nbsp; n&nbsp; c&nbsp; r&nbsp; o&nbsp; n&nbsp; í&nbsp; a</u></i></b></span></div><div class="ace-line" id="0.46261396477032934"><ul class="list-indent1"><li><span class="author-a-z72zz82zjdo2q6l6oz90zmmz70z8 b"><b>Escolástica digital</b></span><span class="author-a-z72zz82zjdo2q6l6oz90zmmz70z8">.</span></li></ul></div><div class="ace-line" id="0.17303597810551463"><ul class="list-indent1"><li><span class="author-a-z72zz82zjdo2q6l6oz90zmmz70z8 b"><b>El problema burocrático</b></span><span class="author-a-z72zz82zjdo2q6l6oz90zmmz70z8">: No se puede virtualizar solo por gusto, se necesita la "aprobación" de la burocracia. Esto por lo que dijo Miguel de que si no dicta una clase por X horas, no le pagan. Lo mismo sirve para pensarse otras materialidades que necesitan estar en un tiempo específico. Se me ocurren cosas como firmas en físico, fotocopias, sacar libros de la biblioteca, *ir* al archivo, entre otras.&nbsp;</span></li></ul></div><div class="ace-line" id="0.6921243570084907"><ul class="list-indent1"><li><span class="author-a-z72zz82zjdo2q6l6oz90zmmz70z8 b"><b>MEJOR DICHO</b></span><span class="author-a-z72zz82zjdo2q6l6oz90zmmz70z8">: </span><span class="author-a-z72zz82zjdo2q6l6oz90zmmz70z8 i"><i>¿Cuáles son los límites de lo digital (en su versión más ideal, mejor hecha) en el mundo en que vivimos?</i></span><span class="author-a-z72zz82zjdo2q6l6oz90zmmz70z8"> Y sobre todo, </span><span class="author-a-z72zz82zjdo2q6l6oz90zmmz70z8 i"><i>¿Quiénes o cómo se ponen esos límites? ¿Qué podemos hacer para remediarlo?</i></span></li></ul></div><div class="ace-line" id="0.03764590732263651">&nbsp;</div><div class="ace-line" id="0.7159305384067085"><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">Hacer un tutorial: pasa tu clase presencial a una clase virtual</span></div><div class="ace-line" id="0.835624029421945">&nbsp;</div><div class="ace-line" id="0.6254479599613736"><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">Resistencia para adoptar el modelo de la educación en línea.&nbsp;</span></div><div class="ace-line" id="0.11387269609411499"><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">Lo que es importante es quidar los objetivos pedagógicos. Flexibilizar, interacción en distitnas herramientas.</span></div><div class="ace-line" id="0.6816804500874405"><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">Cuál es nuestra alfabetización en herramientas, pero también en temas de pedagogía.&nbsp;</span></div><div class="ace-line" id="0.2657716235509957"><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">¿Cómo minimizar la desercióin estudiantil en la educac?</span></div><div class="ace-line" id="0.050710785406546055">&nbsp;</div><div class="ace-line" id="0.6160914699047875"><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">Tres modelos. Los que ya dan clase vrtuales. Los que tienen clases mixtas (Blend), y los que son lanzados a dar clases en línea.&nbsp;</span></div><div class="ace-line" id="0.09947353983463314"><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">Esta última es la que más dificil, porque previve un modelo decimononico y casi conventual. Esperan que el profesor esté hablando, de modo que el paso a modelos nuevos es muy complicado.&nbsp;</span></div><div class="ace-line" id="0.10372610309192876"><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">Privilegiar los modelos híbridos, que es lo propio de las humanidades digitales.&nbsp;</span></div><div class="ace-line" id="0.7067527431489447"><span class="author-a-z69z7z87zakz122zz85zuyz82zjz75z0iz68zz84z">La improvisación es un valor en los cursos, y es importante contra la sobre planificación de la educaci´n</span></div><div class="ace-line" id="0.625557906119321">&nbsp;</div><div class="ace-line" id="0.7211861220830711"><span class="author-a-mz69zz81zuz67zz71zz80zfz78znsz84zz70zz90zz67zz72z">Profesores: facilitadores de procesos de aprendizaje.</span></div><div class="ace-line" id="0.6247627173057155">&nbsp;</div><div class="ace-line" id="0.1243468787196611"><span class="author-a-z67zz88zz67zz82zz68zaz71zgi9z83zk82ok">Es necesario afinar el pensamiento frente a lo que realmente sucede vinculando la tecnología a la educación. Cómo llamarla?&nbsp; Como precisar el concepto?</span></div><div class="ace-line" id="0.5293846165891507"><span class="author-a-z67zz88zz67zz82zz68zaz71zgi9z83zk82ok">Perspectivas distintas&nbsp; del que recibe.&nbsp; Que desean los estudiantes que se les transmita?</span></div><div class="ace-line" id="0.2320355936937033">&nbsp;</div><div class="ace-line" id="0.20399815256320242"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">¿ y quién es élles? LOS ESTUDIANTES</span></div><div class="ace-line" id="0.29693713940562416"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">Uno de profe siente que está hablando con EXTRAÑOS</span></div><div class="ace-line" id="0.3987116954175436">&nbsp;</div><div class="ace-line" id="0.14465749967662367"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">La universidad adopta tecnologías pero no cambia en nada</span></div><div class="ace-line" id="0.01708081703503095">&nbsp;</div><div class="ace-line" id="0.7345859545074305"><span class="author-a-mz69zz81zuz67zz71zz80zfz78znsz84zz70zz90zz67zz72z">La persistencia de modelos pedagógicos muy tradicionales tanto para estudiantes como docentes</span></div><div class="ace-line" id="0.05948516326416242">&nbsp;</div><div class="ace-line" id="0.526023770505387"><span class="author-a-mz69zz81zuz67zz71zz80zfz78znsz84zz70zz90zz67zz72z">Con la virtualización no parece haber margen para la improvisación, hiperplanificación y disciplinamiento</span></div><div class="ace-line" id="0.6014570074226511">&nbsp;</div><div class="ace-line" id="0.11772418089694092"><span class="author-a-mz69zz81zuz67zz71zz80zfz78znsz84zz70zz90zz67zz72z">Las redes sociales como herramienta para las clases: pros y contras&nbsp;</span></div><div class="ace-line" id="0.7121221058038973">&nbsp;</div><div class="ace-line" id="0.8881321303533334"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">y el ganador es GOOGLE, EL BIG DATA, EL CONTROL DE LOS DIRECTIVOS, LA 5 G... perdemos el resto... esun asunto geopolítico</span></div><div class="ace-line" id="0.4864394858421126">&nbsp;</div><div class="ace-line" id="0.29492721909624176"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">Educación virtual debe ser IMPROVISAR, FLUIR, JUGAR (más cercana al videojuego que a lo viejo)</span></div><div class="ace-line" id="0.5151978381382989">&nbsp;</div><div class="ace-line" id="0.046779485240231455"><span class="author-a-z75zfgz88zz89zvz74z7t0z79zz66z2sz88z4">Me quedo con JUGAR. IMPROVISAR. FLUIR... y para eso sirve la expresión visual vía el meme, el selfie y el gif como modo de jugar a producir conceptos e ideas</span></div><div class="ace-line" id="0.33292351530600217">&nbsp;</div><div class="ace-line" id="0.6383348122260355"><span class="author-a-z82zduz72zz85ztkyqn5oz73z6rz69z">Redefinirnos y redefinir nuestras actividades - Me hace cuestionar en los diversos niveles o capas de participación, en donde lo digital es una de ellas en los museos. No solo en momentos de necesidad como este, los programas educativos pueden ser flexibles ante la improvisación y ante las formas diversas de comunicación.&nbsp;&nbsp;&nbsp;</span></div><div class="ace-line" id="0.025888486861683546">&nbsp;</div><div class="ace-line" id="0.08291834477513005">&nbsp;</div><div class="ace-line" id="0.804348810785585">&nbsp;</div></div>
+        </div>
+      </div><!-- /padeditor -->
+    </div><!-- /padmain -->
+  </div><!-- /padpage -->
+
+<div id="connectivity" class="popup">
+
+    <div class="connected visible">
+      <h2 data-l10n-id="pad.modals.connected" aria-label="Connected.">Connected.</h2>
+    </div>
+    <div class="reconnecting">
+      <h1 data-l10n-id="pad.modals.reconnecting" aria-label="Reconnecting to your pad..">Reconnecting to your pad..</h1>
+      <p class="loadingAnimation"></p>
+    </div>
+    <div class="userdup">
+      <h1 data-l10n-id="pad.modals.userdup" aria-label="Opened in another window">Opened in another window</h1>
+      <h2 data-l10n-id="pad.modals.userdup.explanation" aria-label="This pad seems to be opened in more than one browser window on this computer.">This pad seems to be opened in more than one browser window on this computer.</h2>
+      <p data-l10n-id="pad.modals.userdup.advice" aria-label="Reconnect to use this window instead.">Reconnect to use this window instead.</p>
+      <button id="forcereconnect" data-l10n-id="pad.modals.forcereconnect" aria-label="Force reconnect">Force reconnect</button>
+    </div>
+    <div class="unauth">
+      <h1 data-l10n-id="pad.modals.unauth" aria-label="Not authorised">Not authorised</h1>
+      <p data-l10n-id="pad.modals.unauth.explanation" aria-label="Your permissions have changed while viewing this page. Try to reconnect.">Your permissions have changed while viewing this page. Try to reconnect.</p>
+      <button id="forcereconnect" data-l10n-id="pad.modals.forcereconnect" aria-label="Force reconnect">Force reconnect</button>
+    </div>
+    <div class="looping">
+      <h1 data-l10n-id="pad.modals.disconnected" aria-label="You have been disconnected.">You have been disconnected.</h1>
+      <h2 data-l10n-id="pad.modals.looping.explanation" aria-label="There are communication problems with the synchronisation server.">There are communication problems with the synchronisation server.</h2>
+      <p data-l10n-id="pad.modals.looping.cause" aria-label="Perhaps you connected through an incompatible firewall or proxy.">Perhaps you connected through an incompatible firewall or proxy.</p>
+    </div>
+    <div class="initsocketfail">
+      <h1 data-l10n-id="pad.modals.initsocketfail" aria-label="Server is unreachable.">Server is unreachable.</h1>
+      <h2 data-l10n-id="pad.modals.initsocketfail.explanation" aria-label="Couldn't connect to the synchronisation server.">Couldn't connect to the synchronisation server.</h2>
+      <p data-l10n-id="pad.modals.initsocketfail.cause" aria-label="This is probably due to a problem with your browser or your internet connection.">This is probably due to a problem with your browser or your internet connection.</p>
+    </div>
+    <div class="slowcommit">
+      <h1 data-l10n-id="pad.modals.disconnected" aria-label="You have been disconnected.">You have been disconnected.</h1>
+      <h2 data-l10n-id="pad.modals.slowcommit.explanation" aria-label="The server is not responding.">The server is not responding.</h2>
+      <p data-l10n-id="pad.modals.slowcommit.cause" aria-label="This could be due to problems with network connectivity.">This could be due to problems with network connectivity.</p>
+      <button id="forcereconnect" data-l10n-id="pad.modals.forcereconnect" aria-label="Force reconnect">Force reconnect</button>
+    </div>
+    <div class="badChangeset">
+      <h1 data-l10n-id="pad.modals.disconnected" aria-label="You have been disconnected.">You have been disconnected.</h1>
+      <h2 data-l10n-id="pad.modals.badChangeset.explanation" aria-label="An edit you have made was classified illegal by the synchronisation server.">An edit you have made was classified illegal by the synchronisation server.</h2>
+      <p data-l10n-id="pad.modals.badChangeset.cause" aria-label="This could be due to a wrong server configuration or some other unexpected behaviour. Please contact the service administrator, if you feel this is an error. Try to reconnect in order to continue editing.">This could be due to a wrong server configuration or some other unexpected behaviour. Please contact the service administrator, if you feel this is an error. Try to reconnect in order to continue editing.</p>
+      <button id="forcereconnect" data-l10n-id="pad.modals.forcereconnect" aria-label="Force reconnect">Force reconnect</button>
+    </div>
+    <div class="corruptPad">
+      <h1 data-l10n-id="pad.modals.disconnected" aria-label="You have been disconnected.">You have been disconnected.</h1>
+      <h2 data-l10n-id="pad.modals.corruptPad.explanation" aria-label="The pad you are trying to access is corrupt.">The pad you are trying to access is corrupt.</h2>
+      <p data-l10n-id="pad.modals.corruptPad.cause" aria-label="This may be due to a wrong server configuration or some other unexpected behaviour. Please contact the service administrator.">This may be due to a wrong server configuration or some other unexpected behaviour. Please contact the service administrator.</p>
+    </div>
+    <div class="deleted">
+      <h1 data-l10n-id="pad.modals.deleted" aria-label="Deleted.">Deleted.</h1>
+      <p data-l10n-id="pad.modals.deleted.explanation" aria-label="This pad has been removed.">This pad has been removed.</p>
+    </div>
+    <div class="disconnected">
+      
+      <h1 data-l10n-id="pad.modals.disconnected" aria-label="You have been disconnected.">You have been disconnected.</h1>
+      <h2 data-l10n-id="pad.modals.disconnected.explanation" aria-label="The connection to the server was lost">The connection to the server was lost</h2>
+      <p data-l10n-id="pad.modals.disconnected.cause" aria-label="The server may be unavailable. Please notify the service administrator if this continues to happen.">The server may be unavailable. Please notify the service administrator if this continues to happen.</p>
+      <button id="forcereconnect" data-l10n-id="pad.modals.forcereconnect" aria-label="Force reconnect">Force reconnect</button>
+      
+    </div>
+    <form id="reconnectform" method="post" action="/ep/pad/reconnect" accept-charset="UTF-8" style="display: none;">
+        <input type="hidden" class="padId" name="padId">
+        <input type="hidden" class="diagnosticInfo" name="diagnosticInfo">
+        <input type="hidden" class="missedChanges" name="missedChanges">
+    </form>
+
+</div>
+
+<div class="popup" id="settings">
+  
+    
+      <label for="viewfontmenu" data-l10n-id="pad.settings.fontType" aria-label="Font type:">Font type:</label>
+    
+    
+      <select id="viewfontmenu">
+        <option value="normal" data-l10n-id="pad.settings.fontType.normal" aria-label="Normal">Normal</option>
+        <option value="monospace" data-l10n-id="pad.settings.fontType.monospaced" aria-label="Monospace">Monospace</option>
+        <option value="opendyslexic" data-l10n-id="pad.settings.fontType.opendyslexic" aria-label="Open Dyslexic">Open Dyslexic</option>
+        <option value="comicsans" data-l10n-id="pad.settings.fontType.comicsans" aria-label="Comic Sans">Comic Sans</option>
+        <option value="georgia" data-l10n-id="pad.settings.fontType.georgia" aria-label="Georgia">Georgia</option>
+        <option value="impact" data-l10n-id="pad.settings.fontType.impact" aria-label="Impact">Impact</option>
+        <option value="lucida" data-l10n-id="pad.settings.fontType.lucida" aria-label="Lucida">Lucida</option>
+        <option value="lucidasans" data-l10n-id="pad.settings.fontType.lucidasans" aria-label="Lucida Sans">Lucida Sans</option>
+        <option value="palatino" data-l10n-id="pad.settings.fontType.palatino" aria-label="Palatino">Palatino</option>
+        <option value="tahoma" data-l10n-id="pad.settings.fontType.tahoma" aria-label="Tahoma">Tahoma</option>
+        <option value="timesnewroman" data-l10n-id="pad.settings.fontType.timesnewroman" aria-label="Times New Roman">Times New Roman</option>
+        <option value="trebuchet" data-l10n-id="pad.settings.fontType.trebuchet" aria-label="Trebuchet">Trebuchet</option>
+        <option value="verdana" data-l10n-id="pad.settings.fontType.verdana" aria-label="Verdana">Verdana</option>
+        <option value="symbol" data-l10n-id="pad.settings.fontType.symbol" aria-label="Symbol">Symbol</option>
+        <option value="webdings" data-l10n-id="pad.settings.fontType.webdings" aria-label="Webdings">Webdings</option>
+        <option value="wingdings" data-l10n-id="pad.settings.fontType.wingdings" aria-label="Wingdings">Wingdings</option>
+        <option value="sansserif" data-l10n-id="pad.settings.fontType.sansserif" aria-label="Sans Serif">Sans Serif</option>
+        <option value="serif" data-l10n-id="pad.settings.fontType.serif" aria-label="Serif">Serif</option>
+      </select>
+    
+  
+</div>
+
+<!-- export code -->
+<div id="import_export">
+<div id="export" class="popup">
+  <p data-l10n-id="timeslider.exportCurrent" aria-label="Export current version as:">Export current version as:</p>
+  <a id="exportetherpada" target="_blank" class="exportlink" href="https://etherpad.wikimedia.org/p/TostadaHD_-_Educación_virtual/4056/export/etherpad"><div class="exporttype" id="exportetherpad" data-l10n-id="pad.importExport.exportetherpad" aria-label="Etherpad">Etherpad</div></a>
+  <a id="exporthtmla" target="_blank" class="exportlink" href="https://etherpad.wikimedia.org/p/TostadaHD_-_Educación_virtual/4056/export/html"><div class="exporttype" id="exporthtml" data-l10n-id="pad.importExport.exporthtml" aria-label="HTML">HTML</div></a>
+  <a id="exportplaina" target="_blank" class="exportlink" href="https://etherpad.wikimedia.org/p/TostadaHD_-_Educación_virtual/4056/export/txt"><div class="exporttype" id="exportplain" data-l10n-id="pad.importExport.exportplain" aria-label="Plain text">Plain text</div></a>
+  
+  
+  
+</div>
+</div>
+
+<script type="text/javascript" src="../../static/js/require-kernel.js"></script>
+<script type="text/javascript" src="../../socket.io/socket.io.js"></script>
+
+<!-- Include base packages manually (this help with debugging) -->
+<script type="text/javascript" src="../../javascripts/lib/ep_etherpad-lite/static/js/timeslider.js?callback=require.define"></script>
+<script type="text/javascript" src="../../javascripts/lib/ep_etherpad-lite/static/js/ace2_common.js?callback=require.define"></script>
+
+<script type="text/javascript" src="../../static/skins/no-skin/timeslider.js"></script>
+
+<!-- Bootstrap -->
+<script type="text/javascript">
+  // @license magnet:?xt=urn:btih:8e4f440f4c65981c5bf93c76d35135ba5064d8b7&dn=apache-2.0.txt
+  var clientVars = {};
+  var BroadcastSlider;
+  (function () {
+    var pathComponents = location.pathname.split('/');
+
+    // Strip 'p', the padname and 'timeslider' from the pathname and set as baseURL
+    var baseURL = pathComponents.slice(0,pathComponents.length-3).join('/') + '/';
+
+
+    require.setRootURI(baseURL + "javascripts/src");
+    require.setLibraryURI(baseURL + "javascripts/lib");
+    require.setGlobalKeyPath("require");
+
+    $ = jQuery = require('ep_etherpad-lite/static/js/rjquery').jQuery; // Expose jQuery #HACK
+    browser = require('ep_etherpad-lite/static/js/browser');
+
+    var plugins = require('ep_etherpad-lite/static/js/pluginfw/client_plugins');
+    var socket = require('ep_etherpad-lite/static/js/timeslider').socket;
+    BroadcastSlider = require('ep_etherpad-lite/static/js/timeslider').BroadcastSlider;
+    plugins.baseURL = baseURL;
+
+    plugins.update(function () {
+      var hooks = require('ep_etherpad-lite/static/js/pluginfw/hooks');
+      hooks.plugins = plugins;
+
+      var timeslider = require('ep_etherpad-lite/static/js/timeslider')
+      timeslider.baseURL = baseURL;
+      timeslider.init();
+
+      /* TODO: These globals shouldn't exist. */
+      padeditbar = require('ep_etherpad-lite/static/js/pad_editbar').padeditbar;
+      padimpexp = require('ep_etherpad-lite/static/js/pad_impexp').padimpexp;
+
+      padeditbar.init()
+    });
+  })();
+  // @license-end
+</script>
+
+<div style="display:none"><a href="/javascript" data-jslicense="1">JavaScript license information</a></div>
+
+
+</body></html>
